@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 import HomeView from './views/'; //finish routing, nothing in views yet
-import Register from './';
-import LoginGo from './';
-import LoginGet from './';
-import LoginGive from './';
+import Register from './views/Registration.js';
+import LoginGo from './components/go/LoginGo.js';
+import LoginGet from './components/get/LoginGet.js';
+import LoginGive from './components/give/LoginGive.js';
 
 class App extends React.Component {
   render() {
